@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import NameForm from './forms/controlledComponent'
+import Reservation from './forms/handlingMutlipleInputs'
 
 ReactDOM.render(
-    <NameForm />,
+    <Reservation />,
     document.getElementById('root')
 );
