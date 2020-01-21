@@ -1,18 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import { element } from './component/functionComponent/renderingComponent'
-import { App } from './component/functionComponent/composingComponent'
-
-// ReactDOM.render(
-//     element,
-//     document.getElementById('root')
-// );
-
-/**
- * Composing Componets
- */
+import Clock from './component/classComponent/clock'
 
 ReactDOM.render(
-    <App />,
+    <Clock />,
     document.getElementById('root')
-)
+);
