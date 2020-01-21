@@ -18,5 +18,8 @@ const user = {
 }
 
 export const element = (
-    getGreeting(user)
+    <div>
+        {getGreeting(user)}
+        {getGreeting(null)}
+    </div>
 );
