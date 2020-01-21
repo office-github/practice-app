@@ -1,7 +1,21 @@
-import ReactDom from 'react-dom'
-import { element } from './ReactJsIntroduction'
+import ReactDOM from 'react-dom'
+// import { element } from './introduction/printName'
+import { element } from './introduction/formatName'
 
-ReactDom.render(
+
+/**
+ * print Name
+ */
+// ReactDOM.render(
+//     element,
+//     document.getElementById('root')
+// );
+
+
+/**
+ * Format Name
+ */
+ReactDOM.render(
     element,
-    document.getElementById('root')
+    document.getElementById("root")
 );
