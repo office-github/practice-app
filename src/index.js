@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import UserInfo from './eventHandling/passArgsToEventHandler'
+import NameForm from './forms/controlledComponent'
 
 ReactDOM.render(
-    <UserInfo />,
+    <NameForm />,
     document.getElementById('root')
 );
