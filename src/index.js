@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Calculator from './liftingStateUp/temperatureCalculatorAdvance'
+import App from './compositionVsInheritance/signUpDialog'
 
 ReactDOM.render(
-    <Calculator />,
+    <App />,
     document.getElementById('root')
 );
