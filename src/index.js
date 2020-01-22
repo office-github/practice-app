@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Reservation from './forms/handlingMutlipleInputs'
+import Calculator from './liftingStateUp/temperatureCalculatorAdvance'
 
 ReactDOM.render(
-    <Reservation />,
+    <Calculator />,
     document.getElementById('root')
 );
